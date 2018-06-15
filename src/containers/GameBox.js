@@ -6,7 +6,7 @@ class GameBox extends React.Component {
   {
     super(props)
     this.state = {
-      turn: 1
+      
     }
   }
 

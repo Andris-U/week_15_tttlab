@@ -1,12 +1,11 @@
-// import React from 'react'
-//
-// class Cell extends React.Component (index) {
-//   constructor(index){
-//     this.index = index
-//     this.state = {
-//       index:
-//     }
-//   }
-// }
-//
-// export default Cell
+import React from 'react'
+
+const Cell = (props) => {
+  return (
+    <div className= {props.className} id={props.id} key={props.id} onClick={props.onClick}>
+
+    </div>
+  )
+}
+
+export default Cell
